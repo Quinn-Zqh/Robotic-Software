@@ -1,0 +1,3 @@
+[console_scripts]
+suspension = mitsubishi.suspension:main
+

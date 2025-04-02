@@ -1,0 +1,6 @@
+source;share/mitsubishi/hook/pythonpath.ps1
+source;share/mitsubishi/hook/pythonpath.dsv
+source;share/mitsubishi/hook/pythonpath.sh
+source;share/mitsubishi/hook/ament_prefix_path.ps1
+source;share/mitsubishi/hook/ament_prefix_path.dsv
+source;share/mitsubishi/hook/ament_prefix_path.sh

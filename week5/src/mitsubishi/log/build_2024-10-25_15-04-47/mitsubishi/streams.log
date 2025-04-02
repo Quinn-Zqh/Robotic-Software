@@ -1,0 +1,37 @@
+[0.512s] Invoking command in '/home/mscrobotics2425laptop17/ros2_tutorial_workspace/src/mitsubishi': PYTHONPATH=/home/mscrobotics2425laptop17/ros2_tutorial_workspace/src/mitsubishi/build/mitsubishi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop17/ros2_tutorial_workspace/src/mitsubishi/install/mitsubishi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/mitsubishi build --build-base /home/mscrobotics2425laptop17/ros2_tutorial_workspace/src/mitsubishi/build/mitsubishi/build install --record /home/mscrobotics2425laptop17/ros2_tutorial_workspace/src/mitsubishi/build/mitsubishi/install.log --single-version-externally-managed install_data
+[0.689s] running egg_info
+[0.690s] creating build/mitsubishi/mitsubishi.egg-info
+[0.690s] writing build/mitsubishi/mitsubishi.egg-info/PKG-INFO
+[0.691s] writing dependency_links to build/mitsubishi/mitsubishi.egg-info/dependency_links.txt
+[0.691s] writing entry points to build/mitsubishi/mitsubishi.egg-info/entry_points.txt
+[0.691s] writing requirements to build/mitsubishi/mitsubishi.egg-info/requires.txt
+[0.691s] writing top-level names to build/mitsubishi/mitsubishi.egg-info/top_level.txt
+[0.692s] writing manifest file 'build/mitsubishi/mitsubishi.egg-info/SOURCES.txt'
+[0.697s] reading manifest file 'build/mitsubishi/mitsubishi.egg-info/SOURCES.txt'
+[0.699s] writing manifest file 'build/mitsubishi/mitsubishi.egg-info/SOURCES.txt'
+[0.699s] running build
+[0.700s] running build_py
+[0.700s] creating /home/mscrobotics2425laptop17/ros2_tutorial_workspace/src/mitsubishi/build/mitsubishi/build
+[0.700s] creating /home/mscrobotics2425laptop17/ros2_tutorial_workspace/src/mitsubishi/build/mitsubishi/build/lib
+[0.701s] creating /home/mscrobotics2425laptop17/ros2_tutorial_workspace/src/mitsubishi/build/mitsubishi/build/lib/mitsubishi
+[0.701s] copying mitsubishi/suspension.py -> /home/mscrobotics2425laptop17/ros2_tutorial_workspace/src/mitsubishi/build/mitsubishi/build/lib/mitsubishi
+[0.702s] copying mitsubishi/__init__.py -> /home/mscrobotics2425laptop17/ros2_tutorial_workspace/src/mitsubishi/build/mitsubishi/build/lib/mitsubishi
+[0.703s] running install
+[0.703s] running install_lib
+[0.704s] creating /home/mscrobotics2425laptop17/ros2_tutorial_workspace/src/mitsubishi/install/mitsubishi/lib/python3.10/site-packages/mitsubishi
+[0.704s] copying /home/mscrobotics2425laptop17/ros2_tutorial_workspace/src/mitsubishi/build/mitsubishi/build/lib/mitsubishi/suspension.py -> /home/mscrobotics2425laptop17/ros2_tutorial_workspace/src/mitsubishi/install/mitsubishi/lib/python3.10/site-packages/mitsubishi
+[0.705s] copying /home/mscrobotics2425laptop17/ros2_tutorial_workspace/src/mitsubishi/build/mitsubishi/build/lib/mitsubishi/__init__.py -> /home/mscrobotics2425laptop17/ros2_tutorial_workspace/src/mitsubishi/install/mitsubishi/lib/python3.10/site-packages/mitsubishi
+[0.705s] byte-compiling /home/mscrobotics2425laptop17/ros2_tutorial_workspace/src/mitsubishi/install/mitsubishi/lib/python3.10/site-packages/mitsubishi/suspension.py to suspension.cpython-310.pyc
+[0.706s] byte-compiling /home/mscrobotics2425laptop17/ros2_tutorial_workspace/src/mitsubishi/install/mitsubishi/lib/python3.10/site-packages/mitsubishi/__init__.py to __init__.cpython-310.pyc
+[0.706s] running install_data
+[0.707s] creating /home/mscrobotics2425laptop17/ros2_tutorial_workspace/src/mitsubishi/install/mitsubishi/share/ament_index
+[0.707s] creating /home/mscrobotics2425laptop17/ros2_tutorial_workspace/src/mitsubishi/install/mitsubishi/share/ament_index/resource_index
+[0.707s] creating /home/mscrobotics2425laptop17/ros2_tutorial_workspace/src/mitsubishi/install/mitsubishi/share/ament_index/resource_index/packages
+[0.707s] copying resource/mitsubishi -> /home/mscrobotics2425laptop17/ros2_tutorial_workspace/src/mitsubishi/install/mitsubishi/share/ament_index/resource_index/packages
+[0.707s] copying package.xml -> /home/mscrobotics2425laptop17/ros2_tutorial_workspace/src/mitsubishi/install/mitsubishi/share/mitsubishi
+[0.708s] running install_egg_info
+[0.712s] Copying build/mitsubishi/mitsubishi.egg-info to /home/mscrobotics2425laptop17/ros2_tutorial_workspace/src/mitsubishi/install/mitsubishi/lib/python3.10/site-packages/mitsubishi-0.0.0-py3.10.egg-info
+[0.716s] running install_scripts
+[0.755s] Installing suspension script to /home/mscrobotics2425laptop17/ros2_tutorial_workspace/src/mitsubishi/install/mitsubishi/lib/mitsubishi
+[0.756s] writing list of installed files to '/home/mscrobotics2425laptop17/ros2_tutorial_workspace/src/mitsubishi/build/mitsubishi/install.log'
+[0.782s] Invoked command in '/home/mscrobotics2425laptop17/ros2_tutorial_workspace/src/mitsubishi' returned '0': PYTHONPATH=/home/mscrobotics2425laptop17/ros2_tutorial_workspace/src/mitsubishi/build/mitsubishi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop17/ros2_tutorial_workspace/src/mitsubishi/install/mitsubishi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/mitsubishi build --build-base /home/mscrobotics2425laptop17/ros2_tutorial_workspace/src/mitsubishi/build/mitsubishi/build install --record /home/mscrobotics2425laptop17/ros2_tutorial_workspace/src/mitsubishi/build/mitsubishi/install.log --single-version-externally-managed install_data
