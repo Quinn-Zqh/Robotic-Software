@@ -1,0 +1,13 @@
+planner_server:
+  ros__parameters:
+    planner_plugin: "antiochia_ad_taurum"
+    use_astar: true
+    use_final_approach_orientation: true
+global_costmap:
+  ros__parameters:
+    robot_radius: 0.33
+    resolution: 0.10
+    plugins: ["static_layer", "inflation_layer"]
+    inflation_layer:
+      inflation_radius: 0.66  # 2 * robot_radius
+

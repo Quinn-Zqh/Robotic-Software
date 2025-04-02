@@ -1,0 +1,6 @@
+image: dab.pgm
+resolution: 0.05
+origin: [-10.0, -10.0, 0.0]
+free_thresh: 0.25
+occupied_thresh: 0.65
+
