@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<robot name="michael">
+
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <box size="0.2 0.2 0.05"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </visual>
+    </link>
+
+    <link name="peroxisome">
+        <visual>
+            <geometry>
+                <cylinder length="0.77" radius="0.05"/>
+            </geometry>
+            <origin xyz="0 0 0.385" rpy="0 0 0"/>
+        </visual>
+    </link>
+
+    <link name="autophagosome">
+        <visual>
+            <geometry>
+                <cylinder length="0.49" radius="0.05"/>
+            </geometry>
+            <origin xyz="0 0 0.245" rpy="0 0 0"/>
+        </visual>
+    </link>
+
+    <link name="end_effector">
+        <visual>
+            <geometry>
+                <sphere radius="0.05"/>
+            </geometry>
+            <origin xyz="0 0 0.16" rpy="0 0 0"/>
+        </visual>
+    </link>
+
+    <!-- 定义关节 -->
+    <joint name="joint1_revolute" type="revolute">
+        <parent link="base_link"/>
+        <child link="peroxisome"/>
+        <origin xyz="0 0 0" rpy="0 -1.57 0"/>
+        <axis xyz="0 0 1"/>
+        <limit lower="-1.5708" upper="1.5708" effort="30" velocity="1"/>
+    </joint>
+
+    <joint name="joint2_revolute" type="revolute">
+        <parent link="peroxisome"/>
+        <child link="autophagosome"/>
+        <origin xyz="0 0 0.77" rpy="0 0 0"/>
+        <axis xyz="0 0 1"/>
+        <limit lower="-1.5708" upper="1.5708" effort="30" velocity="1"/>
+    </joint>
+
+    <joint name="joint3_fixed" type="fixed">
+        <parent link="autophagosome"/>
+        <child link="end_effector"/>
+        <origin xyz="0 0 0.49" rpy="0 0 0"/>
+    </joint>
+
+</robot>
+
